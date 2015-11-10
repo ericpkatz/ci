@@ -9,7 +9,7 @@ describe('/products', function(){
         return request(app).get('/api/products')
           .expect(200)
           .then(function(res){
-            assert(res.body.length == 0);
+            assert(res.body.length == 1);
           });
       });
     });
