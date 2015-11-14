@@ -19,4 +19,8 @@ describe('HomeCtrl', function(){
   it('scope foo is bar', function(){
     expect(scope.foo).to.eq('bar');
   });
+
+  it('scope bizz equals buzz', function(){
+    expect(scope.bizz).to.eq('buzz');
+  });
 });

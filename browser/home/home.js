@@ -9,4 +9,5 @@ app.config(function($stateProvider, $locationProvider){
 
 app.controller('HomeCtrl', function($scope){
   $scope.foo = 'bar';
+  $scope.bizz = 'buzz';
 });
